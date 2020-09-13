@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.chat.fx.application.chatapplication.viewController.MemberDetailViewController">
+   <children>
+      <Label fx:id="userNameLbl" text="Label" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <font>
+            <Font name="Arial" size="19.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="screenImg" fitHeight="180.0" fitWidth="580.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="210.0" />
+      <Label text="Login Time" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="50.0">
+         <font>
+            <Font name="Roboto Light" size="14.0" />
+         </font>
+      </Label>
+       <Label fx:id="loginTime" text="Label" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="50.0">
+           <font>
+               <Font name="Roboto Light" size="13.0" />
+           </font>
+       </Label>
+      <Label text="Logout Time" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="90.0">
+         <font>
+            <Font name="Roboto Light" size="14.0" />
+         </font>
+      </Label>
+       <Label fx:id="logoutTime" text="Label" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="90.0">
+           <font>
+               <Font name="Roboto Light" size="13.0" />
+           </font>
+       </Label>
+      <Label fx:id="errorLog" text="Label" textFill="#f20303" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="120.0">
+         <font>
+            <Font name="Roboto Light" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
